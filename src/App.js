@@ -3,6 +3,7 @@ import './App.css';
 import Form from './Form';
 import Header from './Header';
 import HexaColor from './HexaColor';
+import UserCard from './UserCard';
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
 return <div style={mainStyle} className='App'>
 
  {/* <Form /> */}
- <HexaColor />
+ {/* <HexaColor /> */}
+ <UserCard />
 </div>
 }
 
