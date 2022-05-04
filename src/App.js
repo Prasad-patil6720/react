@@ -2,6 +2,7 @@
 import './App.css';
 import Form from './Form';
 import Header from './Header';
+import HexaColor from './HexaColor';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
   }
 return <div style={mainStyle} className='App'>
 
- <Form />
+ {/* <Form /> */}
+ <HexaColor />
 </div>
 }
 

@@ -1,20 +1,10 @@
-const hexaColor=()=>{
-let str='0123456789';
-let color='';
-for(let i=0;i<6;i++){
-     let index=Math.floor(Math.random()*str.length);
-     color +=str[index];
-}
-
-return '#'+color
-}
-
 const HexaColor=()=>{
-    const hexa= hexaColor();
-    const styl={
-        backGroundColor:hexa
+    const colors=['#518cef','#3b10c4','#9aede6','#8ee763','#a30dd0','aqua','red','green','maroon','lightgreen','whitesmoke','black'];
+
+    return <div>{
+        colors.map((colo)=>{return  <div style={{backgroundColor:colo,height:"50px",display:"flex",justifyContent:"center",alignItems:"center"}}>{colo}</div>})
     }
-    return <div style={styl}>{hexaColor()}</div>
+    </div>
 }
 
 export default HexaColor;
