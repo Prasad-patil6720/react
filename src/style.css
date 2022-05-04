@@ -1,0 +1,26 @@
+h1{
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+h3{
+    text-transform: capitalize;
+    margin-bottom: 3rem;
+}
+input{
+    border: none;
+    margin-right: 2rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+}
+input::placeholder{
+    text-align: center;
+}
+button{
+    margin-top: 3rem;
+    width: 18rem;
+    height: 2.5rem;
+    border: none;
+    background-color:#F37474 ;
+    border-radius: 1.1rem;
+
+}
